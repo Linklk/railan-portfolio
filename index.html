@@ -664,7 +664,7 @@
 <!-- SHOWREEL -->
 <section class="reel" id="reel">
   <div class="reel-frame" id="main-reel" onclick="openReelVideo()" style="cursor:pointer;">
-    <img src="https://i.ytimg.com/vi/MyBlfsqPMMc/maxresdefault.jpg" onerror="this.src='https://i.ytimg.com/vi/MyBlfsqPMMc/hqdefault.jpg'" alt="VSL" style="width:100%;height:100%;object-fit:cover;display:block;"/>
+    <img src="https://i.ytimg.com/vi/NUisPSy8BYM/maxresdefault.jpg" onerror="this.src='https://i.ytimg.com/vi/NUisPSy8BYM/hqdefault.jpg'" alt="VSL" style="width:100%;height:100%;object-fit:cover;display:block;"/>
     <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
       <div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
     </div>
@@ -678,9 +678,7 @@
       <span class="section-num">01 — TRABALHOS</span>
       <h2 class="section-title">PORT<em>FÓLIO</em></h2>
     </div>
-    <div style="font-size:13px;color:var(--gray);max-width:260px;text-align:right;line-height:1.7">
-      Clique em qualquer card para adicionar o link do seu vídeo do YouTube.
-    </div>
+
   </div>
 
   <div class="grid" id="portfolio-grid">
@@ -715,7 +713,7 @@
       <div class="grid-overlay"><div class="grid-label">Ads</div><div class="grid-title">Ads 06</div></div>
     </div>
     <div class="grid-item" onclick="openVideo(6)">
-      <img class="grid-thumb" src="https://i.ytimg.com/vi/qZEFNPriIFM/maxresdefault.jpg" onerror="this.src='https://i.ytimg.com/vi/qZEFNPriIFM/hqdefault.jpg'" alt="Ads 07"/>
+      <img class="grid-thumb" src="https://i.ytimg.com/vi/nXMuFBIKHdc/maxresdefault.jpg" onerror="this.src='https://i.ytimg.com/vi/nXMuFBIKHdc/hqdefault.jpg'" alt="Ads 07"/>
       <div class="grid-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
       <div class="grid-overlay"><div class="grid-label">Ads</div><div class="grid-title">Ads 07</div></div>
     </div>
@@ -841,7 +839,7 @@
     'https://youtube.com/shorts/opbP6J8A0ls',
     'https://youtube.com/shorts/TCuviCTda6s',
     'https://youtube.com/shorts/yKObOAAnHhk',
-    'https://youtube.com/shorts/qZEFNPriIFM'
+    'https://youtube.com/shorts/nXMuFBIKHdc'
   ];
   const titles = ['Ads 01','Ads 02','Ads 03','Ads 04','Ads 05','Ads 06','Ads 07'];
 
@@ -868,7 +866,7 @@
   }
 
   function openReelVideo() {
-    document.getElementById('modal-video-content').innerHTML = `<iframe src="https://www.youtube.com/embed/MyBlfsqPMMc?autoplay=1" allowfullscreen style="width:100%;height:100%;border:none;"></iframe>`;
+    document.getElementById('modal-video-content').innerHTML = `<iframe src="https://www.youtube.com/embed/NUisPSy8BYM?autoplay=1" allowfullscreen style="width:100%;height:100%;border:none;"></iframe>`;
     document.getElementById('modal-title').textContent = 'VSL';
     document.getElementById('video-modal').classList.add('open');
   }
